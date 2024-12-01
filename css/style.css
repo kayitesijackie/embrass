@@ -115,19 +115,19 @@ button:focus {
      outline: none;
 }
 
-ul,
+/* ul,
 li,
 ol {
      margin: 0px;
      padding: 0px;
      list-style: none;
-}
+} */
 
-p {
+p, li {
      margin: 0px;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 24px;
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
 }
 
 a {
@@ -1850,15 +1850,17 @@ input[type="radio"] .styled:checked+label::after {
      top: 27px;
      width: 149px;
 }
+.traveling-box img{
+     height: 150px;
+}
 .traveling-box {
      padding: 0px 5px 0px 5px;
      text-align: center;
 }
 .traveling-box h3 {
      padding-top: 20px;
-     font-size: 25px;
-     line-height: 31px;
-     color: #100808;
+     font-size: 17px;
+     color: #13aba6;
 }
 .traveling-box p {
      color: #100808;
@@ -1904,7 +1906,7 @@ input[type="radio"] .styled:checked+label::after {
      color: #141012;
      font-size: 17px;
      line-height: 32px;
-     display: block;
+     /* display: block; */
 }
 .titlepage h2::before {
      right: 100%;
@@ -2035,7 +2037,7 @@ input[type="radio"] .styled:checked+label::after {
      padding-top: 90px;
 }
 .titlepage {
-     text-align: center;
+     text-align: justify;
 }
 .titlepage h2 {
      padding: 0px 0px 20px 0px;
@@ -2046,14 +2048,6 @@ input[type="radio"] .styled:checked+label::after {
      text-transform: uppercase;
      display: inline-block;
      position: relative;
-}
-.titlepage span {
-     color: #0e0f10;
-     font-size: 17px;
-     line-height: 32px;
-     display: inline-block;
-     margin-bottom: 0px;
-     display: block;
 }
 .titlepage h2::before {
      right: 100%;
